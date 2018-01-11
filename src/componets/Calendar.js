@@ -45,9 +45,10 @@ class App extends Component {
               style={{height: '700px', width: '100%'}}
               events={this.state.events}
               defaultView="week"
-              views={['week', 'day', 'month']}
-              min={moment('2017-01-01 07:00:00').toDate()}
-              max={moment('2017-01-01 21:00:00').toDate()}
+              views={['week', 'day']}
+              min={moment('2017-01-01 08:00:00').toDate()}
+              max={moment('2017-01-01 20:00:00').toDate()}
+              formats={{timeGutterFormat: 'HH:mm', dayFormat:'ddd D'}}
             />
         }
       </div>

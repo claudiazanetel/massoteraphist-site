@@ -28,11 +28,48 @@ h5 {
 }
 
 .calendar {
-  margin: 30px;
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.rbc-label {
+  padding: 10px 3px !important;
+}
+.rbc-btn-group button + button {
+  margin: 1px !important;
 }
 
 .rbc-time-header > .rbc-row:nth-of-type(2) {
   display: none !important;
+}
+
+.rbc-toolbar button {
+  color: #373a3c;
+  display: inline-block;
+  margin: 3px !important;
+  text-align: center;
+  vertical-align: middle;
+  background: none;
+  background-image: none;
+  border: 1px solid #ccc;
+  padding: .375rem 1rem;
+  border-radius: 0px !important;
+  line-height: none !important;
+  white-space: nowrap;
+}
+
+.rbc-toolbar button:active, .rbc-toolbar button.rbc-active {
+  border: 2px solid blue !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background-color: white !important;
+  border-color: none !important;
+}
+
+.rbc-toolbar button:hover {
+  background-color: white !important;
+  border-color: white !important;
 }
 
 .footer-box {
@@ -70,6 +107,20 @@ h5 {
   }
   span.rbc-toolbar-label {
     padding: 0 !important;
-    font-size: 14px;
+    font-size: 14px !important;
+  }
+  .rbc-timeslot-group {
+    font-size: 14px !important;
+  }
+
+  .rbc-header {
+    font-size: 10px !important;
+  }
+  .rbc-time-view {
+    max-height: 450px !important;
+  }
+  .rbc-label {
+    padding: 0px 5px !important;
+    padding-top: 8px !important;
   }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-// import logo from '../assets/logos/logo.jpg';
+import logo from '../assets/logo.jpg';
 
 class Header extends Component {
   render() {
@@ -10,7 +10,7 @@ class Header extends Component {
         <div className="col-sm-12">
           <nav className="navbar navbar-expand-lg navbar-light navbar-fixed-top">
             <Link className="navbar-brand" to="/">
-              {/* <img className="logo" src={logo} alt={"logo"}></img> */}
+              <img className="logo" src={logo} alt={"logo"}></img>
             </Link>
             <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>

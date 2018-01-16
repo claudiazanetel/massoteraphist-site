@@ -69,7 +69,15 @@ h5 {
 
 .rbc-toolbar button:hover {
   background-color: white !important;
-  border-color: white !important;
+  border-color: none !important;
+}
+
+.rbc-event {
+  border-radius: 0px !important;
+}
+
+.rbc-event-label { 
+  display: none !important 
 }
 
 .footer-box {
@@ -111,6 +119,10 @@ h5 {
   }
   .rbc-timeslot-group {
     font-size: 14px !important;
+  }
+
+  .rbc-calendar {
+    height: 450px !important;
   }
 
   .rbc-header {

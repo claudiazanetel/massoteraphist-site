@@ -24,7 +24,7 @@ h5 {
 }
 
 .collapsing {
-  transition: height .001s ease !important;
+  transition: height .00s ease !important;
 }
 
 .calendar {

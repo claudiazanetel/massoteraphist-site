@@ -24,16 +24,23 @@ li {
 
   .navbar-collapse {
     padding-left: 50px;
+    padding-bottom: 70px;
   }
 
   .fbLogoDiv {
     z-index: 10;
     position: relative;
     margin-right: 100px;
+    padding-bottom: 70px;
   }
   .fbLogo {
     width: 30px;
   }
 
+  .logo {
+    padding: 5px;
+    padding-top: 20px;
+    width: 150px;
+  }
 
 }

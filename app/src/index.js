@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import App from './componets/App';
-import Header from './componets/Header';
-import Footer from './componets/Footer';
-import Calendar from './componets/Calendar';
+import App from './components/App';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Calendar from './components/Calendar';
 import registerServiceWorker from './registerServiceWorker';
 
 import Promise from 'promise-polyfill';

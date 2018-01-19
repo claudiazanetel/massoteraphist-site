@@ -36,7 +36,7 @@ class Header extends Component {
               </ul>
             </div>
             <div className="d-none d-lg-block fbLogoDiv">
-              <img className="fbLogo" src={fbLogo} alt={"fbLogo"}></img>
+              <a className="titlePost" href="https://www.facebook.com/OrlerEleonoraMassoterapia/" target="_blank"><img className="fbLogo" src={fbLogo} alt={"fbLogo"}></img></a>
             </div>
           </nav>
         </div>

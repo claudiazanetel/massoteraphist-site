@@ -16,11 +16,11 @@ class Header extends Component {
             <Link className="navbar-brand" to="/">
               <img className="logo" src={logo} alt={"logo"}></img>
             </Link>
-            <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul className="navbar-nav">
+              <ul className="navbar-nav" data-toggle="collapse" data-target=".navbar-collapse">
                 <li className="nav-item">
                   <Link className="nav-link" to="/servizi">SERVIZI</Link>
                 </li>

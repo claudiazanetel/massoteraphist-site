@@ -22,7 +22,7 @@ class App extends Component {
 
 
   componentDidMount () {
-    axios.get('http://localhost:3030/api/calendar')
+    axios.get('api/calendar')
       .then(response => {
         console.log(response.data);
         this.setState({ events: response.data }, () => this.stringToDate());

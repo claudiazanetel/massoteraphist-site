@@ -8,25 +8,6 @@ h5 {
   font-weight: bold;
 }
 
-.navbar {
-  background-image: url("./assets/header.jpeg") !important;
-  min-height: 200px;
-  background-size:cover !important;
-  padding-top: -5px !important;
-}
-
-.navbar-nav {
-  margin-top: -130px !important;
-}
-
-.navbar-toggler.collapsed {
-  margin-top:-135px !important;
-}
-
-.collapsing {
-  transition: height .00s ease !important;
-}
-
 .calendar {
   margin: 0px;
   margin-top: 30px;
@@ -98,17 +79,8 @@ h5 {
   padding: 15px;
 }
 
-@media screen and (max-width: 991px) {
-  .navbar-nav {
-    margin-top: 0px !important;
-  }
-}
 
 @media screen and (max-width: 650px) {
-  .navbar-nav {
-    margin-top: 0px !important;
-  }
-
   .rbc-btn-group button {
     padding: 3px !important;
     font-size: 12px;

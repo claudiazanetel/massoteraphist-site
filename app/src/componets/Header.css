@@ -1,0 +1,31 @@
+.logo {
+    width: 80px;
+}
+
+.headerImage {
+  width: 100%;
+  max-height: 200px;
+}
+
+@media screen and (min-width: 990px) {
+  .menu {
+    width: 100%;
+    position: absolute;
+  }
+  .headerImageDiv {
+    z-index: -10;
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .fbLogoDiv {
+    z-index: 10;
+    position: relative;
+    margin-right: 100px;
+  }
+  .fbLogo {
+    width: 30px;
+  }
+
+
+}

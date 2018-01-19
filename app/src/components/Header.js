@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import './Header.css';
+
 import logo from '../assets/logoEle.png';
+import fbLogo from '../assets/fbLogo.png';
+import header from '../assets/header.jpeg';
 
 class Header extends Component {
   render() {
     return (
       <div className="row nav">
-        <div className="col-sm-12">
+        <div className="col-sm-12 menu">
           <nav className="navbar navbar-expand-lg navbar-light navbar-fixed-top">
             <Link className="navbar-brand" to="/">
               <img className="logo" src={logo} alt={"logo"}></img>
@@ -31,7 +35,13 @@ class Header extends Component {
                 </li>
               </ul>
             </div>
+            <div className="d-none d-lg-block fbLogoDiv">
+              <a className="titlePost" href="https://www.facebook.com/OrlerEleonoraMassoterapia/" target="_blank"><img className="fbLogo" src={fbLogo} alt={"fbLogo"}></img></a>
+            </div>
           </nav>
+        </div>
+        <div className="col-sm-12 headerImageDiv">
+          <img className="headerImage" src={header} alt={"header"}></img>
         </div>
       </div>
     );

@@ -21,18 +21,10 @@ class Header extends Component {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav" data-toggle="collapse" data-target=".navbar-collapse">
-                <li className="nav-item">
-                  <Link className="nav-link" to="/servizi">SERVIZI</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/chisono">CHI SONO</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/contatti">CONTATTI</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/prenota">PRENOTA</Link>
-                </li>
+                <Link className="nav-item nav-link" to="/servizi">SERVIZI</Link>
+                <Link className="nav-item nav-link" to="/chisono">CHI SONO</Link>
+                <Link className="nav-item nav-link" to="/contatti">CONTATTI</Link>
+                <Link className="nav-item nav-link" to="/prenota">DISPONIBILITà</Link>
               </ul>
             </div>
             <div className="d-none d-lg-block fbLogoDiv">

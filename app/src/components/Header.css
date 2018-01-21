@@ -11,6 +11,12 @@ li {
   font-weight: bold;
 }
 
+.nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 990px) {
   .menu {
     width: 90%;
@@ -22,15 +28,24 @@ li {
     margin-top: 10px;
   }
 
+  .nav-link:hover{
+    border-bottom: 2px solid black;
+  }
+
+  .nav-link:active{
+    border-bottom: 2px solid black;
+  }
+
   .navbar-collapse {
-    padding-left: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 70px;
   }
 
   .fbLogoDiv {
     z-index: 10;
     position: relative;
-    margin-right: 30px;
+    margin-right: 10px;
     padding-bottom: 70px;
   }
   .fbLogo {

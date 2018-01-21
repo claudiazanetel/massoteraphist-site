@@ -1,0 +1,112 @@
+.calendar {
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .rbc-calendar {
+      width: 100% !important;
+      padding-left: 10% !important;
+      padding-right: 10% !important;
+  }
+  .rbc-label {
+    padding: 10px 3px !important;
+  }
+  .rbc-btn-group button + button {
+    margin: 3px !important;
+    border-radius: 3px !important;
+  }
+  
+  .rbc-time-header > .rbc-row:nth-of-type(2) {
+    display: none !important;
+  }
+  
+  .rbc-toolbar button {
+    color: #373a3c;
+    display: inline-block;
+    margin: 3px !important;
+    text-align: center;
+    vertical-align: middle;
+    background: none;
+    background-image: none;
+    border: 1px solid #ccc;
+    padding: .375rem 1rem;
+    border-radius: 0px !important;
+    line-height: none !important;
+    white-space: nowrap;
+  }
+  
+  .rbc-toolbar button:active, .rbc-toolbar button.rbc-active {
+    border: 2px solid #dd9ddc !important;
+    border-radius: 3px !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: white !important;
+    border-color: none !important;
+  }
+  
+  .rbc-toolbar button:hover {
+    background-color: white !important;
+    border: 2px solid #dfbedf !important;
+    border-radius: 3px !important;
+  }
+
+  .rbc-toolbar button:focus {
+    background-color: white !important;
+    border: 2px solid #dfbedf !important;
+    border-radius: 3px !important;
+    outline-color: #dd9ddc !important;
+  }
+  
+  .rbc-event {
+    border-radius: 3px !important;
+    border: 1px solid #4e4c4c !important;
+    background-color: #ddbbdc !important; 
+    text-align: center !important;
+    color: #4e4c4c !important;
+  }
+  
+  .rbc-event-label { 
+    display: none !important;
+  }
+
+  .rbc-today {
+    background-color: #f1e8f1 !important; 
+  }
+  
+  
+  @media screen and (max-width: 780px) {
+
+  .rbc-calendar {
+      width: 100% !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+
+  .rbc-btn-group button {
+    padding: 3px !important;
+    font-size: 12px;
+  }
+  span.rbc-toolbar-label {
+    padding: 0 !important;
+    font-size: 14px !important;
+  }
+  .rbc-timeslot-group {
+    font-size: 14px !important;
+  }
+
+  .rbc-calendar {
+    height: 450px !important;
+  }
+
+  .rbc-header {
+    font-size: 10px !important;
+  }
+  .rbc-time-view {
+    max-height: 450px !important;
+  }
+  .rbc-label {
+    padding: 0px 5px !important;
+    padding-top: 8px !important;
+  }
+}

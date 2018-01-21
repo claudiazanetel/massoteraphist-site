@@ -6,23 +6,23 @@
     text-align: center;
 }
 
+h5 {
+    padding-top: 3%;
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
   }
 
 li {
     font-weight: normal;
     text-align: center;
+    padding-bottom: 2%;
 }
 
 .profileImage {
     border-radius: 50%;
-}
-
-h4 {
-    color: #787878;
-}
-
-h5 {
-    text-align: center;
 }

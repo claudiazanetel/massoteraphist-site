@@ -1,5 +1,18 @@
+.profile {
+    padding: 20px;
+}
+
+.profileTitle {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+  }
+
 li {
     font-weight: normal;
+    text-align: center;
 }
 
 .profileImage {
@@ -8,4 +21,8 @@ li {
 
 h4 {
     color: #787878;
+}
+
+h5 {
+    text-align: center;
 }

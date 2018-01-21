@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import './Header.css';
 
@@ -13,18 +13,18 @@ class Header extends Component {
       <div className="row nav">
         <div className="col-sm-12 menu">
           <nav className="navbar navbar-expand-lg navbar-light navbar-fixed-top">
-            <Link className="navbar-brand" to="/">
+            <NavLink className="navbar-brand" to="/">
               <img className="logo" src={logo} alt={"logo"}></img>
-            </Link>
+            </NavLink>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav" data-toggle="collapse" data-target=".navbar-collapse">
-                <Link className="nav-item nav-link" to="/servizi">SERVIZI</Link>
-                <Link className="nav-item nav-link" to="/chisono">CHI SONO</Link>
-                <Link className="nav-item nav-link" to="/contatti">CONTATTI</Link>
-                <Link className="nav-item nav-link" to="/prenota">DISPONIBILITà</Link>
+                <NavLink className="nav-item nav-link" to="/servizi">SERVIZI</NavLink>
+                <NavLink className="nav-item nav-link" to="/chisono">CHI SONO</NavLink>
+                <NavLink className="nav-item nav-link" to="/contatti">CONTATTI</NavLink>
+                <NavLink className="nav-item nav-link" to="/prenota">DISPONIBILITà</NavLink>
               </ul>
             </div>
             <div className="d-none d-lg-block fbLogoDiv">

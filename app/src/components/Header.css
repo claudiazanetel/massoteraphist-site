@@ -32,8 +32,12 @@ li {
     border-bottom: 2px solid black;
   }
 
-  .nav-link:active{
+  .nav-link.active{
     border-bottom: 2px solid black;
+  }
+
+  .collapsing {
+    overflow: visible !important;
   }
 
   .navbar-collapse {

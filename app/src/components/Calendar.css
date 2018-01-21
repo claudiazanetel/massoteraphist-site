@@ -74,6 +74,9 @@
     background-color: #f1e8f1 !important; 
   }
   
+  .rbc-event-content {
+    font-size: 80% !important;
+  }
   
   @media screen and (max-width: 780px) {
 
@@ -108,5 +111,9 @@
   .rbc-label {
     padding: 0px 5px !important;
     padding-top: 8px !important;
+  }
+
+  .rbc-event-content { 
+    display: none !important;
   }
 }

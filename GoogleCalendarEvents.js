@@ -16,7 +16,7 @@ exports.getEvents = (callback) => {
           events.push({
             start: moment(event.start.date || event.start.dateTime).toDate(),
             end: moment(event.end.date || event.end.dateTime).toDate(),
-            title: 'prenotato',
+            title: 'non disponibile',
           });
         });
         callback(events);

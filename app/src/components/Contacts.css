@@ -1,0 +1,13 @@
+.contacts {
+  padding: 20px;
+}
+
+.contactsList li {
+  text-align: left;
+  padding-bottom: 0;
+  padding-left: 5px;
+}
+
+.contactsList a{
+  color:#787878;
+}

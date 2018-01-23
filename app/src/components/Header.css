@@ -27,11 +27,7 @@ li {
     position: relative;
     margin-top: 10px;
   }
-
-  .nav-link:hover{
-    border-bottom: 2px solid black;
-  }
-
+  
   .nav-link.active{
     border-bottom: 2px solid black;
   }

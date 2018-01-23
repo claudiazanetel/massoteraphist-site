@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Calendar from './components/Calendar';
 import Profile from './components/Profile';
+import Contacts from './components/Contacts';
 import registerServiceWorker from './registerServiceWorker';
 
 import Promise from 'promise-polyfill';
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Header />
       <Switch>
         <Route exact path="/chisono" component={Profile} />
+        <Route exact path="/contatti" component={Contacts} />
         <Route exact path="/prenota" component={Calendar} />
         <Route exact path="/" component={App} />
       </Switch>

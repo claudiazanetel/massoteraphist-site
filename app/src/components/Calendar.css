@@ -3,11 +3,20 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+  .textAvailability {
+    text-align: center;
+  }
+
+  .textAvailability a {
+    color: #787878;
+    font-weight: bold;
+  }
   
   .rbc-calendar {
       width: 100% !important;
-      padding-left: 10% !important;
-      padding-right: 10% !important;
+      padding-left: 8% !important;
+      padding-right: 8% !important;
   }
   .rbc-label {
     padding: 10px 3px !important;

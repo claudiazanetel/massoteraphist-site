@@ -8,6 +8,7 @@
   background-clip:content-box;
   padding: 14px;
   color: #4e4c4c;
+  padding-bottom: 0px;
 }
   
 .footer-box p {
@@ -20,4 +21,19 @@
 
 .footer-content {
   padding: 15px;
+  padding-bottom: 5px;
+}
+
+.fbLogoFooter {
+  text-align: left;
+  background-color: #ddbbdc;
+  padding: 14px;
+  padding-top: 0;
+  background-clip:content-box;
+}
+
+.fbLogoFooter img {
+  width: 30px;
+  padding: 5px;
+  margin-left: 10px;
 }

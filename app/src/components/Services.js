@@ -46,7 +46,15 @@ class Services extends Component {
             </div>
             <div className="col-sm-9 serviceText">
               <h6>TECARTERAPIA</h6>
-              <p>TECARTERAPIA</p>
+              <p>Terapia che porta risultati molto rapidi in diversi trattamenti:</p>
+              <ul className="list">
+                <li>Traumi sportivi</li>
+                <li>Strappi</li>
+                <li>Tendiniti</li>
+                <li>Dolori muscolari e articolari</li>
+                <li>Recupero di sovraccarichi sportivi</li>
+                <li>Contratture muscolari</li>
+              </ul>
             </div>
           </div>
           <div className= "row service">
@@ -55,7 +63,7 @@ class Services extends Component {
             </div>
             <div className="col-sm-9 serviceText">
               <h6>BENDAGGIO FUNZIONALE</h6>
-              <p>BENDAGGIO FUNZIONALE</p>
+              <p>Tecnica di immobilizzazione parziale per ridurre i tempi di guarigione.</p>
             </div>
           </div>
           <div className= "row service">
@@ -64,7 +72,8 @@ class Services extends Component {
             </div>
             <div className="col-sm-9 serviceText">
               <h6>KINESIOTEPPING</h6>
-              <p>KINESIOTEPPING</p>
+              <p>bendaggio elastico usato per alleviare il dolore da contratture e tensioni muscolari,
+                tendiniti, ematomi, per il drenaggio linfatico, sostenere articolazioni sofferenti.</p>
             </div>
           </div>
         </div>

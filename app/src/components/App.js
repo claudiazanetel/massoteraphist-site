@@ -8,44 +8,44 @@ class App extends Component {
   render () {
     return (
       <div className="row">
-        <div className="col services">
-          <div className= "service">
+        <div className="col servicesHomepage">
+          <div className= "serviceHomepage">
             <div>
-              <img className="serviceImage" src={header} alt={"header"}></img>
+              <img className="serviceImageHomepage" src={header} alt={"header"}></img>
             </div>
-            <div className="serviceText">
+            <div className="serviceTextHomepage">
               <p>MASSOTERAPIA</p>
             </div>
           </div>
-          <div className= "service">
+          <div className= "serviceHomepage">
             <div>
-              <img className="serviceImage" src={header} alt={"header"}></img>
+              <img className="serviceImageHomepage" src={header} alt={"header"}></img>
             </div>
-            <div className="serviceText">
+            <div className="serviceTextHomepage">
               <p>MASSAGGIO SPORTIVO</p>
             </div>
           </div>
-          <div className= "service">
+          <div className= "serviceHomepage">
             <div>
-              <img className="serviceImage" src={header} alt={"header"}></img>
+              <img className="serviceImageHomepage" src={header} alt={"header"}></img>
             </div>
-            <div className="serviceText">
+            <div className="serviceTextHomepage">
               <p>TECARTERAPIA</p>
             </div>
           </div>
-          <div className= "service secondLineLeft">
+          <div className= "serviceHomepage secondLineLeft">
             <div>
-              <img className="serviceImage" src={header} alt={"header"}></img>
+              <img className="serviceImageHomepage" src={header} alt={"header"}></img>
             </div>
-            <div className="serviceText">
+            <div className="serviceTextHomepage">
               <p>BENDAGGIO FUNZIONALE</p>
             </div>
           </div>
-          <div className= "service secondLineRight">
+          <div className= "serviceHomepage secondLineRight">
             <div>
-              <img className="serviceImage" src={header} alt={"header"}></img>
+              <img className="serviceImageHomepage" src={header} alt={"header"}></img>
             </div>
-            <div className="serviceText">
+            <div className="serviceTextHomepage">
               <p>KINESIOTEPPING</p>
             </div>
           </div>

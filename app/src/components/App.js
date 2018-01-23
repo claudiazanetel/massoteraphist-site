@@ -9,6 +9,7 @@ class App extends Component {
     return (
       <div className="row">
         <div className="col servicesHomepage">
+          <h4 className="titleHomepage">I NOSTRI TRATTAMENTI</h4>
           <div className= "serviceHomepage">
             <div>
               <img className="serviceImageHomepage" src={header} alt={"header"}></img>

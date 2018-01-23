@@ -1,5 +1,5 @@
 .contacts {
-  padding: 20px;
+  padding: 15px;
 }
 
 .contactsList li {
@@ -11,3 +11,14 @@
 .contactsList a{
   color:#787878;
 }
+
+.mapDiv {
+  padding: 15px;
+}
+
+@media screen and (max-width: 650px) {
+  .mapDiv {
+    padding-left: 20px;
+  }
+}
+

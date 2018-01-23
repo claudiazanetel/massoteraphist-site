@@ -24,7 +24,7 @@ class Profile extends Component {
             </ul>
             <h5>Esperienze Professionali</h5>
             <ul>
-              <li>Massaggiatore della squadra nazionale junior di fondo per la FISI</li>
+              <li>Massaggiatrice della Squadra Nazionale Junior di Sci Nordico per la F.I.S.I.</li>
               <li>Collaboratore presso studio di fisioterapia</li>
             </ul>
           </div>

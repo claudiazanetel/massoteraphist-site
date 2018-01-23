@@ -22,7 +22,45 @@
   font-size: large;
 }
 
+.services {
+  padding:20px;
+}
+.service {
+  display: inline-block;
+  width: 33%;
+  padding: 5px;
+  text-align: center;
+  vertical-align: text-top;
+}
+
+.secondLineLeft {
+  margin-left: 14%;
+  margin-right: 2%;
+}
+
+.secondLineRight {
+  margin-right: 14%;
+  margin-left: 2%;
+}
+
+.serviceImage {
+  border-radius: 50%;
+  width: 100%;
+  padding: 5px;
+}
+
+.serviceText {
+  text-align: center;
+  vertical-align: middle;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 650px) {
+  .serviceText {
+    font-size:14px;
+  }
 }

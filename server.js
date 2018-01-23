@@ -24,7 +24,7 @@ app.get('/api/googleMap', (req, res) => {
   res.json(API.api_key_map);
 });
 
-app.listen(3030, function () {
+app.listen(process.env.PORT || 3030, function () {
   console.log('Example app listening on port 3030!');
 });
 

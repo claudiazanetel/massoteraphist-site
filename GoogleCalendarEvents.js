@@ -13,7 +13,7 @@ exports.getEvents = (callback) => {
       if (!err) {
         const events = [];
         JSON.parse(resp.text).items.filter((event) => {
-          return moment(event.start.dateTime).toDate() >= new Date();})
+          return moment(event.end.dateTime).toDate() >= new Date();})
           .map((event) => {
           events.push({
             start: moment(event.start.date || event.start.dateTime).toDate(),

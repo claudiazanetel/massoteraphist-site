@@ -7,6 +7,8 @@ const API_KEY = config.api_key;
 let url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`
 
 exports.getEvents = (callback) => {
+  let currentDate= moment().format('YYYY-MM-DD[T]hh:mm:ss[Z]');
+  url+='&timeMin='+currentDate
   request
     .get(url)
     .end((err, resp) => {
@@ -22,6 +24,8 @@ exports.getEvents = (callback) => {
           });
         });
         callback(events);
+      } else {
+        console.log(err)
       }
     });
 };
